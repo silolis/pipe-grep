@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Package manager files
+*.vsix
+
+# Exclude esbuild.js from ignore
+!esbuild.js
+
