@@ -2,9 +2,9 @@
   "name": "pipe-grep",
   "displayName": "pipe-grep",
   "description": "Grep like functionality for VSCode",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Other"
@@ -21,11 +21,11 @@
         "commands": [
             {
                 "command": "pipe-grep.grepInPlace",
-                "title": "Grep: Filter Lines (In-Place)"
+                "title": "pipe-grep: Filter lines (in place)"
             },
             {
                 "command": "pipe-grep.grepNewDoc",
-                "title": "Grep: Filter Lines (New Document)"
+                "title": "pipe-grep: Filter lines (new document)"
             }
         ]
     },
@@ -45,7 +45,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.98.0",
+    "@types/vscode": "^1.96.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.25.0",
