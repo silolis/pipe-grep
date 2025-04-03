@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/silolis/pipe-grep"
   },
-  "icon": "icon.svg",
+  "icon": "icon.png",
   
   "contributes": {
         "commands": [
